@@ -1,3 +1,29 @@
+# My change
+
+Add support for SharpWMI and SharpTest.
+
+SharpWMI is from https://github.com/GhostPack/SharpWMI.
+
+SharpTest is the template I wrote.
+
+### change records
+
+- Add file:SharpGen/Source/SharpWMI/Program.cs
+- Add file:SharpGen/Source/SharpTest/Program.cs
+- Add file:SharpGen/example.txt
+- Modify file:SharpGen/SharpGen.csproj
+
+### build&test
+
+```
+dotnet build --configuration Release
+dotnet bin/Release/netcoreapp2.1/SharpGen.dll -f example.exe --source-file example.txt
+```
+
+
+---
+---
+
 # SharpGen
 
 [SharpGen](https://github.com/cobbr/SharpGen) is a .NET Core console application that utilizes the [Rosyln](https://github.com/dotnet/roslyn) C# compiler to quickly cross-compile .NET Framework console applications or libraries.
