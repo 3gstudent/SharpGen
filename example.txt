@@ -1,0 +1,3 @@
+SharpWMI.Program.LocalWMIQuery("select * from win32_ComputerSystem");
+Console.WriteLine(Host.GetProcessList());
+SharpTest.Program.TestMethod("123456");
