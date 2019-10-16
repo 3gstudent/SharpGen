@@ -130,6 +130,9 @@
     <Compile Remove="Source\SharpSploit\LateralMovement\DCOM.cs" />
     <Compile Remove="Source\SharpSploit\LateralMovement\WMI.cs" />
     <Compile Remove="Source\SharpSploit\Credentials\Tokens.cs" />
+    <Compile Remove="Source\SharpWMI\Program.cs" />
+    <Compile Remove="Source\SharpTest\Program.cs" />
+    
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Confuser.Core">
